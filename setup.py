@@ -15,7 +15,7 @@ setup(
     long_description=open('README.rst').read(),
     author='Studio Ousia',
     author_email='admin@ousia.jp',
-    url='http://github.com/studio-ousia/pydarts',
+    url='http://github.com/studio-ousia/python-darts',
     packages=find_packages(),
     ext_modules=cythonize('darts/*.pyx'),
     license=open('LICENSE').read(),
