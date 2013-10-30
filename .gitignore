@@ -1,0 +1,11 @@
+*.pyc
+*.cpp
+*.so
+*.egg-info
+*.egg
+.coverage
+.ropeproject
+.venv*
+*.sublime-*
+build
+dist
