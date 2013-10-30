@@ -1,7 +1,7 @@
 python-darts
 ============
 
-A Python binding for Darts (Double Array Trie)
+A Python binding for `Darts (Double ARray Trie System) <http://www.chasen.org/~taku/software/darts/>`_.
 
 .. image:: https://badge.fury.io/py/python-darts.png
     :target: http://badge.fury.io/py/python-darts
