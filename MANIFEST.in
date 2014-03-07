@@ -1,3 +1,2 @@
 include README.rst LICENSE requirements.txt
-include darts/darts.h
-include darts/*.pyx
+include darts.h darts.pyx

@@ -1,5 +1,5 @@
+# distutils: language = c++
 # cython: profile=False, infer_types=True, boundscheck=False
-# distutils: language=c++
 # -*- coding: utf-8 -*-
 
 DEF RESULT_SIZE = 100

@@ -2,6 +2,8 @@
 
 import sys
 import os
+import unittest
+
 from nose.tools import *
 
 err = sys.stderr
@@ -9,7 +11,7 @@ err = sys.stderr
 from darts import Darts
 
 
-class TestDarts(object):
+class TestDarts(unittest.TestCase):
     def setUp(self):
         data_path = os.path.join(os.path.dirname(__file__), 'mock_data.darts')
         self._ins = Darts(data_path)
